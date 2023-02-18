@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main -  prints all single digit numbers of base 10 starting from 0
- * Retuen: Always 0
+ * main - prints all single digit in base 10
+ * Return: Always 0
  */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	{
 		int result = number % 10;
 
-		putchar((result % 10) + '0');
+		putchar(result + '0');
 	}
 
 	putchar('\n');
