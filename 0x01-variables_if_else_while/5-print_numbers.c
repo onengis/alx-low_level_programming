@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#include <time.h>
-
 /**
  * main - Entry
  * Return: Always 0
