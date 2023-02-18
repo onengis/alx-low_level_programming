@@ -9,7 +9,7 @@ int main(void)
 {
 	int number;
 
-	for (numnber = 0; number < 10; number++)
+	for (number = 0; number < 10; number++)
 	{
 		int result = number % 10;
 
