@@ -4,10 +4,8 @@
 
 #include <time.h>
 
-/* This program will assign a random number to the variable n each time it is executed.*/
-
-/*
- * main -Entry
+/**
+ * main - Entry
  * Return: Always 0
  */
 
@@ -25,7 +23,7 @@ int main(void)
 
 	if (l > 5)
 	{
-		printf("last digit of %d is %d and is greater than 5\n", n, l);
+		printf("Last digit of %d is %d and is greater than 5\n", n, l);
 	}
 
 	else if (l == 0)
@@ -35,7 +33,7 @@ int main(void)
 
 	else
 	{
-		printf("Last digit of %d is %d is and is less than 6 and not  0\n" n, l);
+		printf("Last digit of %d is %d is and is less than 6 and not  0\n", n, l);
 	}
 
 	return (0);
