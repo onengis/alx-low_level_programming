@@ -1,4 +1,4 @@
-#includem "main.h"
+#include "main.h"
 
 /**
  * main - prints _putchar and a new line
@@ -19,4 +19,3 @@ int main(void)
 
 	return (0);
 }
-
