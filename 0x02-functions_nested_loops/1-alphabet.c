@@ -12,7 +12,7 @@ void print_alphabet(void)
 	{
 		_putchar(lc);
 
-		lc++
+		lc++;
 	}
 	_putchar('\n');
 }
